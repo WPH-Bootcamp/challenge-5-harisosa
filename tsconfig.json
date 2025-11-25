@@ -19,7 +19,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node", "jest"] 
   },
   "include": ["src/**/*", "tests/**/*"]
 }
